@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+	{{ tag.title }}
+	{{ post.title }}
+	{{ test.title }}
+{% endblock %}
+
+
+{% block content_title %}
+	{{ tag.title }}
+	{{ post.title }}
+	{{ test.title }}
+{% endblock %}
+
+
+{% block content %}
+	{{ tag.title }}
+	{{ post.body }}
+	{{ test.body }}
+{% endblock %}
